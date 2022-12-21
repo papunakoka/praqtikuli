@@ -1,0 +1,37 @@
+body{
+    background-color: lightblue
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: overline darkblue ;
+    text-shadow:2px 2px 5px darkblue;
+}
+header{
+    background-color: blue;
+    color: red;
+    border:30px solid darkblue 
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+    color: darkcyan;
+    text-decoration: overline cyan;
+    text-shadow:2px 2px 5px cyan;
+}
+h3{
+    text-align: center;
+    color: darkblue;
+    text-decoration: overline cyan;
+    text-shadow:2px 2px 5px cyan;
+}
+div{
+    border:15px solid darkblue; 
+    width:390px;
+    background-color: darkcyan;
+    float:left; 
+    height: 350px; 
+    margin:10px;
+}
+
+

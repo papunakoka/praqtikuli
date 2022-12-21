@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: lightblue;
+        border: 10px solid darkblue;
+    }
+    h1{
+        text-align: center;
+        color: blue;
+        text-decoration: overline darkblue ;
+        text-shadow:2px 2px 5px darkblue;
+        
+    }
+    table,th,td{
+        border: 2px solid darkblue;
+        border-collapse: collapse;
+        border-style:double;
+        text-align: center;
+
+    }
+   table{
+    width:1200px;
+    color:blue;
+    margin:50px;
+    }
+    form{
+        margin-left:600px;
+    }
+   
+</style>
+<body>
+    <h1>Gynecology</h1>
+    
+    <table>
+        <tr>
+           <th>services</th>
+           <th>Doctor</th>
+           <th>doctor's Number</th>
+        </tr>
+        <tr>
+            <td>Obstetrics</td>
+            <td>Papuna kokauri</td>
+            <td>557-972-922</td>
+        </tr>
+        <tr>
+            <td>Gynecology</td>
+            <td>Kravai Jakheli</td>
+            <td>557-377-122</td>
+        </tr>
+        <tr>
+            <td>Ultrasound</td>
+            <td>Darejan Glunchadze</td>
+            <td>559-992-299</td>
+        </tr>
+        </table>
+        <img src="image/gynimg.jpg">
+        <form>
+            <label >First name:</label><br>
+            <input type="text" value="your first name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text"value="your last name" ><br>
+            <label for="lname">Email:</label><br>
+            <input type="text"value="mail@gmail.com" ><br>
+            <label for="lname">phone number:</label><br>
+            <input type="text"value="000-000-000" ><br>
+            <label for="lname">Private number:</label><br>
+            <input type="text"value="00000000000" >
+          <button type="button" onclick="alert ('The doctor will contact you soon !')">send</button>
+        </form>
+    
+</body>
+</html>
